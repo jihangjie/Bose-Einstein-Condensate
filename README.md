@@ -4,16 +4,16 @@ This README file provides an overview of the repository for the PDE simulation o
 
 
 ## Folder "helper"
-    * Contains helper functions for all c code to simulate the PDE
-    * All c code in Folders "figure1", "figure2", "figure3", "figure4ab", and "figure4cd" needs the files saved in "helper"
+* Contains helper functions for all c code to simulate the PDE
+* All c code in Folders "figure1", "figure2", "figure3", "figure4ab", and "figure4cd" needs the files saved in "helper"
 
 
-## Folder "figure1" (The solution dynamics starting from a Gaussian initial profile that evolves into a finite time singularity near x = 0.)
-    * "BE_fig1.c": source code to simulate data used in Figure 1
-    * "out_pde.dat": numerical data produced by BE_fig1.c and used to plot Figure 1
-    * "out1_pde.dat": additional numerical data produced by BE_fig1.c 
-    * "readme.txt": doc file to explain the format of data files
-
+## Folder "figure1" 
+* The solution dynamics starting from a Gaussian initial profile that evolves into a finite time singularity near x = 0.
+* "BE_fig1.c": source code to simulate data used in Figure 1
+* "out_pde.dat": numerical data produced by BE_fig1.c and used to plot Figure 1
+* "out1_pde.dat": additional numerical data produced by BE_fig1.c 
+* "readme.txt": doc file to explain the format of data files
 
 ## Folder "figure2" 
 * The solution dynamics starting from a smoothed piecewise-constant initial profile with a dip in the middle that evolves into a finite time singularity near x = 0.
